@@ -1,0 +1,26 @@
+.mainContainer {
+  background-color: #9ca3af;
+  padding: 20px;
+  margin: 0px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #9ca3af;
+}
+.chars {
+  border: 2px solid #3f3f3f;
+  border-radius: 5px;
+  list-style: none;
+  padding: 20px 10px;
+}
+.chars:hover {
+  background-color: #850000;
+}
+.charsImg {
+  height: 420px;
+  width: 225px;
+}
